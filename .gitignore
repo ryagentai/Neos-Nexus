@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# 大型二进制/依赖（不进库，运行时自备）
+bin/
+ffmpeg-static/
+node-v20.18.0-linux-x64/
+node.tar.xz
+ffmpeg.tar.xz
+xray/
+
+# 运行产物（抓取的原文/译文/缓存/状态）
+transcripts/
+cache/
+state/
+
+# 临时
+*.log
+.DS_Store
