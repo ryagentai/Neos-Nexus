@@ -16,6 +16,8 @@ xray/
 transcripts/
 cache/
 state/
+# 但保留最终萃取成果（news 稿）
+!transcripts/**/*_news.txt
 
 # 临时
 *.log
