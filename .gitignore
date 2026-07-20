@@ -12,12 +12,14 @@ node.tar.xz
 ffmpeg.tar.xz
 xray/
 
-# 运行产物（抓取的原文/译文/缓存/状态）
-transcripts/
+# 运行产物（缓存/状态）
 cache/
 state/
-# 但保留最终萃取成果（news 稿）
-!transcripts/**/*_news.txt
+# transcripts 只忽略过程文件，保留最终 news 稿
+transcripts/**/*_raw.txt
+transcripts/**/*.srt
+transcripts/**/*_zh.txt
+transcripts/**/*.en*srt
 
 # 临时
 *.log
